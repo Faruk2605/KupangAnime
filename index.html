@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Kupang Anime</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h2 class="title">Kupang Anime</h2>
+        <form action="" class="search-box">
+          <input type="text" placeholder="Search" />
+          <button class="bnt-input">
+            <i class="ph ph-magnifying-glass"></i>
+          </button>
+        </form>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">New Release</a></li>
+        </ul>
+
+        <div class="user-account-field">
+          <button class="login">Login</button>
+          <button class="sign-up">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- separator -->
+    <div class="separator">
+      <h2>All Anime</h2>
+    </div>
+    <!-- end separator -->
+
+    <section class="main">
+      <div class="container-grid"></div>
+    </section>
+    <section class="pagination">
+      <div class="pagination-wrapper">
+        <div id="pagination"></div>
+        <button id="prev"><i class="ph ph-caret-left"></i></button>
+        <button id="next"><i class="ph ph-caret-right"></i></button>
+      </div>
+    </section>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
